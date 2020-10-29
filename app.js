@@ -7,16 +7,16 @@ var logger = require('morgan');
 
 var indexRouter = require('./routes/index');
 // var compression = require('compression'); 
-var helmet = require('helmet'); // Helmet seems to stop bootstrap??
+// var helmet = require('helmet'); // Helmet seems to stop bootstrap??
 
 
 var app = express();
 // app.use(helmet());
-app.use(
-  helmet({
-    contentSecurityPolicy: false,
-  })
-);
+// app.use(
+//   helmet({
+//     contentSecurityPolicy: false,
+//   })
+// );
 
 // app.use(
 //   helmet.contentSecurityPolicy({
