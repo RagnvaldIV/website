@@ -1,0 +1,86 @@
+html, body {
+  background-color: #273746;
+  font: 14px Helvetica, Arial, sans-serif;
+  height: 100%;
+  position: relative;
+}
+
+::-webkit-scrollbar { width: 10px; height: 5px;}
+::-webkit-scrollbar-track-piece { background-color: #273746;}
+::-webkit-scrollbar-thumb { height: 50px; background-color: #292b2c; border-radius: 5px;}
+
+p{
+  color: #ddd;
+  /* text-align: center; */
+  font-size: large;
+  text-indent: 40px;
+  /* padding-right: 1em; */
+}
+
+.p2{
+  /* text-align: justify; */
+  font-size: medium;
+  text-indent: 40px;
+}
+
+h1{
+  color: #ddd;
+  padding-left: 25px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+h2{
+  color: #ddd;
+  font-size: xx-large;
+  padding: 10px 0px;
+}
+
+h3{
+  color: #ddd;
+  font-size: x-large;
+  padding: 6px 0px;
+}
+
+h4{
+  color: #ddd;
+  font-size: large;
+}
+
+h5{
+  color: #ddd;
+  font-size: medium;
+}
+
+h4 ul li{
+  padding-bottom: 5px;
+}
+
+ul li a{
+  text-decoration: underline;
+}
+
+a {
+  color: #BFC9CA;
+}
+
+a:hover{
+  color: #BA4A00;
+}
+
+footer{
+  color: #BFC9CA;
+  text-align: center;
+}
+
+.nav-pills > .nav-link.active{
+  color:#273746!important;
+  background-color:#BA4A00!important;
+  }
+
+.btn, .btn:focus{
+  color:#273746!important;
+  background-color:#BA4A00!important;
+  border: none!important;
+  box-shadow: none!important;
+}
