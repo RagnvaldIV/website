@@ -19,12 +19,8 @@ html
         h1 Ragnvald Nicolas Bernt
       div(class="row flex-fill" style="min-height:0")
         div(class="col-sm-2")
-          nav(id="navmenu" class="navbar navbar-dark bg-dark") 
-            //- navbar-expand-lg
-            //- a(class="navbar-brand" href="#") Contents
-            //- button(class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsiblenav" aria-expanded="true")
-            //-   a(class="navbar-brand" href="#") Contents 
-            //-   span(class="navbar-toggler-icon")
+          a(class="btn btn-secondary" data-toggle="collapse" href="#navmenu" role="button" aria-expanded="true" aria-controls="navmenu") CONTENTS
+          nav(id="navmenu" class="navbar navbar-dark bg-dark collapse show") 
             nav(class="nav nav-pills flex-column" id="collapsiblenav")
               a(class="nav-link" href="#about") About Me
               nav(class="nav nav-pills flex-column")

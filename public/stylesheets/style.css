@@ -76,7 +76,7 @@ footer{
 .nav-pills > .nav-link.active{
   color:#273746!important;
   background-color:#BA4A00!important;
-  border-radius: none!important;
+  border-radius: 0px!important;
   }
 
 .btn, .btn:focus{
@@ -84,4 +84,5 @@ footer{
   background-color:#BA4A00!important;
   border: none!important;
   box-shadow: none!important;
+  border-radius: 0px!important;
 }
