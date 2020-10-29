@@ -76,6 +76,7 @@ footer{
 .nav-pills > .nav-link.active{
   color:#273746!important;
   background-color:#BA4A00!important;
+  border-radius: none!important;
   }
 
 .btn, .btn:focus{
