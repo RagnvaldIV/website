@@ -256,6 +256,15 @@ block content
             | year in the master program, Matias Rietig and I developed an indoor 
             | environment sensor with the requirements of low power usage, LoRaWAN 
             | communication, and sensors available to us in the IoT Lab on campus.
+            | The prototype device detected motion with a PIR (Proximity Infra-Red) 
+            | sensor, measured light intensity with a photodiode, and measured 
+            | temperature and humidity with a DHT-11 sensor. Other sensors such as 
+            | air quality, sound, and window state were considered but not implemented
+            | in the prototype due to power usage of available sensors, privacy concerns,
+            | and system complexity. The Heltec WiFi LoRa 32 (V2) microcontroller 
+            | periodically polled the sensors and sent compressed results wirelessly over
+            | LoRaWAN to the gateway developed by another student group, entering a low-power
+            | sleep state between polls.
           h5
             a(class="btn btn-primary" data-toggle="collapse" href="#loragallery" role="button" aria-expanded="false" aria-controls="loragallery") Gallery
           div(class="collapse" id="loragallery")
@@ -276,7 +285,20 @@ block content
       div(class="row")
         div(class="col")
           h4 Automated Seasoning Dispenser - Mechanical Engineering Capstone
-          h5(class="p2")
+          h5(class="p2") In the last year of my Mechanical Engineering undergraduate studies, 
+            | I worked in a group of 5 students to propose and develop a capstone project including 
+            | a proof-of-concept, a business proposition, and finally a prototype. My team agreed 
+            | to pursue one of my ideas, an automated seasoning dispenser. We called this device 
+            | the SpiceMeUp, and our team Alpine Kitchen Automation. After considering various 
+            | dispensing mechanisms, we decided on a rotating set of metered chutes. We identified 
+            | a market for our product in the movie theater industry where such a device could 
+            | dispense popcorn seasoning powder in a sanitary and controlled manner. Our proof-of-concept 
+            | consisted of a single dispensing mechanism for which we could evaluate accuracy and 
+            | repeatability. We refined the design to reduce spillage and increse reliability, and 
+            | built an electronic controller based on an Arduino Mega development board. My role in 
+            | this team was to oversee electrical and programming development. We documented all 
+            | aspects of the project with schematics, BoMs, and manufacturing flows, and successfully 
+            | completed and demonstrated our prototype at the UNR College of Engineering Innovation Day.
           h5
             a(class="btn btn-primary" data-toggle="collapse" href="#capstonegallery" role="button" aria-expanded="false" aria-controls="capstonegallery") Gallery
           div(class="collapse" id="capstonegallery")
@@ -303,7 +325,16 @@ block content
       div(class="row")
         div(class="col")
           h4 Unmanned Autonomous Systems Lab at Technische Hochschule Ingolstadt
-          h5(class="p2")
+          h5(class="p2") During my semester abroad at Technische Hochschule Ingolstadt, I got involved with 
+            | the Unmanned Autonomous Systems Lab led by Prof. Dr. Andreas Frey. In the lab, I helped set up 
+            | the experimental environment for motion-captured quadcopter drones controlled by ROS. We set 
+            | up a multi-agent choreography to demonstrate the capabilities of the lab environment, then I 
+            | began developing anti-collision algorithms for indoor, motion-captured drones. With little 
+            | programming experience of my own, I followed lessons and met with other students to facilitate 
+            | my work. In addition to the drone project, I helped other researchers with my experience in 
+            | CAD and 3-D printing by designing and building assemblies to support them. One example of this 
+            | work is an aircraft throttle lever used in an electric motor controller demo for a 
+            | #[a(href="https://www.researchgate.net/publication/333728809_Mission-framed_Project-based_Learning_Integrating_an_Electric_Powertrain_into_a_Motor_Glider") motor glider aircraft doctoral project].
           h5
             a(class="btn btn-primary" data-toggle="collapse" href="#uasgallery" role="button" aria-expanded="false" aria-controls="uasgallery") Gallery
           div(class="collapse" id="uasgallery")
